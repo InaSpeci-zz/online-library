@@ -1,0 +1,392 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#page_container {
+  position:relative;
+  width: 100%;
+  min-height:100%;
+   
+}
+.header {
+  position:relative;
+  width: 100%;
+  height:120px;
+  overflow: hidden;
+  background-color: #42cef4;
+  
+  
+}
+
+.navbar-header { 
+    margin:auto;
+	float:left;
+	padding-left:5%;
+	font-size:50px;
+	background-color: #42cef4;
+
+	
+	 }
+ .navbar-default{
+	   background-color: #42cef4 !important;
+                 }
+ 
+.navbar{position:relative;
+  width: 100%;
+  height:125px;
+  overflow: hidden;
+
+  padding: 15px 10px;}
+
+ 
+.navbar a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.navbar-nav{
+	float:right !important;
+	padding-top:20px;
+	padding-right:10px;
+}
+
+.navbar a:hover {
+  background-color:#e3ee11;
+  color: black;
+}
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width:100%;
+  height:500px;
+}
+
+.home-content {
+	padding-top:10px;
+  max-width: 800px;
+  position: relative;
+  margin: 0 auto;
+  height: 800px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  height: 500px;
+  padding: 70px 0;
+}
+
+.slider-circles {
+  position: relative;
+  top: 80px;
+  text-align:center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+ max-width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 3em;
+    clear: both;
+    z-index: 10;
+    margin-top: 12em;
+    padding: 10px;
+
+    background-color: #42cef4 !important;
+    text-align: center;
+    color:black;
+}
+
+.home-content + .footer {
+  position: absolute;
+  width: 100%;
+  height: 3em;
+  clear: both;
+  z-index: 10;
+  margin-top: auto;
+  padding: 10px;
+  bottom: 0;
+
+ 
+}
+.button_content {
+	
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+ min-width:800px;
+
+	
+}
+.signup_button { 
+  -ms-transform: translate(50px, 100px,-300px); /* IE 9 */
+  -webkit-transform: translate(50px, 100px,-300px); /* Safari */
+  transform: translate(50px, 100px, -300px);
+  position:absolute;
+  
+  
+  }
+  
+.btn {  
+  
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration:none;
+  margin:10px;
+}
+
+.login_container{
+	 
+ width: 800px;
+  position: relative;
+  margin: 0 auto;
+  height: 500px;
+  padding-top:50px;
+  
+ 
+	
+}
+.login_container + .footer {
+ position: absolute;
+  width: 100%;
+  height: 3em;
+  clear: both;
+  z-index: 10;
+  margin-top: auto;
+  padding: 10px;
+  bottom: 0;
+}
+.img_container {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.service-container{
+	width: 800px;
+  position: relative;
+  margin: 0 auto;
+  height: 500px;
+  padding-top:70px;
+	
+}
+/*.service-container + .footer {
+ position: absolute;
+  width: 100%;
+  height: 3em;
+  clear: both;
+  z-index: 10;
+  margin-top: auto;
+  padding: 10px;
+  bottom: 0;
+}*/
+img.serviceImg {  width: 25%;
+  border-radius: 50%;}
+
+.signup_container{
+	 
+ width: 800px;
+  position: relative;
+  margin: 0 auto;
+  height: 500px;
+  padding-top:50px;
+  
+ }
+/*.signup_container + .footer {
+ position: absolute;
+  width: 100%;
+  height: 3em;
+  clear: both;
+  z-index: 10;
+  margin-top: auto;
+  padding: 10px;
+  bottom: 0;
+}
+*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.container{
+	width: 800px;
+  position: relative;
+  margin: 0 auto;
+  height: 500px;
+}
+  /*
+}.row{
+	
+  position: relative;
+  margin: 0 auto;
+   
+}.info-content{
+	text-align:center;
+}*/
+.leksione{
+	 width: 100%;
+  position: relative;
+  margin: 0 auto;
+  margin-left:30px;
+  height: 500px;
+  padding-top:50px;
+  padding-left:10px;
+}
+#section1{
+     border: 3px solid #d7e1dc;
+	  width:90%;
+	  margin-bottom:10px;
+} 
+#section2 {
+	 border: 3px solid #d7e1dc;
+	 width: 90%;
+}
+#leksione {
+	height:50px;
+	 border-bottom: 3px solid #d7e1dc;
+	 background-color: #d7e1dc;
+}
+#ushtrime {
+	height:50px;
+	 border-bottom: 3px solid #d7e1dc;
+	 background-color: #d7e1dc;
+}
+.content{
+	padding-left:20px;
+}
+.course-content{
+	width: 800px;
+  position: relative;
+  margin: 0 auto;
+  height: 600px;
+  padding-top:70px;
+	
+}
+
+img.courseImg {  width: 30%;
+  border-radius: 50%;}
+  
+.row1{
+	width:100%;
+	position:relative;
+	padding-top:20px;
+	height:300px;
+	
+}
+.information-content{
+	width: 100%;
+  position: relative;
+  margin: 0 auto;
+  height: 600px;
+  padding-top:70px;
+	
+}
+.col-sm-5{
+	
+  top: 25%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+ 
+ img.informationImg{
+	 border-radius:50%;
+	 padding-top:25px;
+	 width:80%
+ }
+ .tect{
+	 text-align:center;
+ }
+ .contact {
+	 width: 100%;
+  position: relative;
+  margin: 0 auto;
+  height: 600px;
+  padding-top:70px;
+	
+}
+ .row2{
+	width:100%;
+	position:relative;
+	padding-top:20px;
+	height:300px;
+	
+}
+h3{bold;}
+
+
+
